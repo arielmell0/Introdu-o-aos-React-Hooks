@@ -1,11 +1,12 @@
-import devilCatImg from '../../images/devil-cat.png';
+import styled from 'styled-components';
+import narutoImg from '../../images/naruto.png';
 
 export function App() {
     return (
-        <div>
-            <p>memes de gatinho</p>
-            <button>Fazer Reserva</button>
-            <img src={devilCatImg} alt="Meme do gatinho"/>
-        </div>
-    )
+        <Content>
+            <p>Quote xpto - Speaker</p>
+            <button>Quote No Jutsu</button>
+            <img src={narutoImg} alt="Naruto com uma kunai"/>
+        </Content>
+    );
 }
